@@ -46,7 +46,7 @@
   
   .brand-2 a {
     text-decoration: none;
-    color: var(--black);
+    color: white;
     font-weight: bold;
     position: relative;
     padding: 8px 12px;
@@ -147,3 +147,14 @@
     }
   }
   
+  /* Hero Section */
+ 
+  section {
+    background-image: url('Assets/bg-hero.jpg'); /* or PNG/WebP */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh; /* Full screen */
+  }
+
+  /* Hero Section End */
