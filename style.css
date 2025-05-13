@@ -290,6 +290,122 @@
     }
   /* Our Specialization End */
 
+  /* Why choose Webincoder */
+    .container {
+      max-width: 1200px;
+      margin: auto;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 40px;
+    }
+
+    .left-img {
+      flex: 1;
+      text-align: center;
+    }
+
+    .left-img img {
+      width: 90%;
+      max-width: 500px;
+      animation: float 3s ease-in-out infinite;
+    }
+
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-10px); }
+    }
+
+    .right-content {
+      flex: 1;
+      max-width: 600px;
+    }
+
+    .section-head h2 {
+      font-size: 36px;
+      color: #1d1b7c;
+      margin-bottom: 10px;
+    }
+
+    .section-head p {
+      font-size: 16px;
+      color: #555;
+      line-height: 1.6;
+      margin-bottom: 30px;
+    }
+
+    .icon-box {
+      display: flex;
+      align-items: flex-start;
+      gap: 20px;
+      background: #f9f9f9;
+      border-radius: 10px;
+      padding: 20px;
+      margin-bottom: 20px;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.05);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      opacity: 0;
+      transform: translateX(50px);
+      animation: fadeInRight 1s forwards;
+    }
+
+    .icon-box:nth-child(1) {
+      animation-delay: 0.4s;
+    }
+
+    .icon-box:nth-child(2) {
+      animation-delay: 0.6s;
+    }
+
+    .icon-box:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 12px 24px rgba(0,0,0,0.08);
+    }
+
+    @keyframes fadeInRight {
+      to {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+
+    .icon {
+      width: 60px;
+      height: 60px;
+      background-color: #1d1b7c;
+      color: #fff;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 24px;
+      flex-shrink: 0;
+    }
+
+    .icon-content h4 {
+      font-size: 18px;
+      color: #1d1b7c;
+      margin-bottom: 8px;
+    }
+
+    .icon-content p {
+      font-size: 14px;
+      color: #666;
+      line-height: 1.5;
+    }
+
+    /* Responsive */
+    @media (max-width: 992px) {
+      .container {
+        flex-direction: column;
+      }
+
+      .left-img {
+        display: none;
+      }
+    }
+  /* Why choose webincoder End */
+
   /* Responsive */
   @media (max-width: 768px) {
     .brand-2 {
