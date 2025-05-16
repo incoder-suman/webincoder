@@ -40,3 +40,21 @@ window.addEventListener('scroll', function () {
       nav.classList.remove('scrolled');
     }
   });
+
+
+  $(document).ready(function () {                  //Testimonial
+  $(".testimonials-carousel2").owlCarousel({
+    loop: true,
+    margin: 30,
+    nav: false,
+    dots: true,
+    autoplay: true,
+    autoplayTimeout: 4000,
+    smartSpeed: 1000,
+    responsive: {
+      0: { items: 1 },
+      768: { items: 2 },
+      1024: { items: 3 }
+    }
+  });
+});
