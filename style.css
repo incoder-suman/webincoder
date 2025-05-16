@@ -586,6 +586,60 @@
 }
   /* Our Portfolio End */
 
+  /* Testimonial */
+  .content-inner-1 {
+  padding: 60px 0;
+  background-size: cover;
+  background-position: center;
+}
+
+.section-head .title {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.testimonial-2 {
+  background: #f9f9f9;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+  text-align: center;
+}
+
+.testimonial-pic img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.testimonial-name {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.testimonial-position {
+  font-size: 14px;
+  color: #888;
+}
+
+.testimonial-text p {
+  font-size: 15px;
+  margin-top: 15px;
+  line-height: 1.6;
+}
+
+.owl-carousel .owl-dots .owl-dot span {
+  background: #ccc;
+}
+
+.owl-carousel .owl-dots .owl-dot.active span {
+  background: #000;
+}
+  /* Testimonial End */
+
   /* Responsive */
   @media (max-width: 768px) {
     .brand-2 {
