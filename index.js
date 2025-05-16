@@ -58,3 +58,5 @@ window.addEventListener('scroll', function () {
     }
   });
 });
+
+ document.querySelector('.current-year').textContent = new Date().getFullYear(); // Footer
