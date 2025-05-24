@@ -42,21 +42,31 @@ window.addEventListener('scroll', function () {
   });
 
 
-  $(document).ready(function () {                  //Testimonial
-  $(".testimonials-carousel2").owlCarousel({
-    loop: true,
-    margin: 30,
-    nav: false,
-    dots: true,
-    autoplay: true,
-    autoplayTimeout: 4000,
-    smartSpeed: 1000,
-    responsive: {
-      0: { items: 1 },
-      768: { items: 2 },
-      1024: { items: 3 }
-    }
+
+  $(document).ready(function(){
+    $(".testimonials-carousel2").owlCarousel({    //testimonial 
+      items: 1,
+      loop: true,
+      margin: 30,
+      dots: true,
+      autoplay: true,
+      autoplayTimeout: 5000,
+    });
   });
-});
+
+ $(document).ready(function(){
+    $(".clients-carousel").owlCarousel({
+      loop: true,
+      margin: 10,
+      autoplay: true,
+      autoplayTimeout: 2000,
+      responsive: {
+        0: { items: 2 },
+        600: { items: 3 },
+        1000: { items: 5 }
+      }
+    });
+  });
+
 
  document.querySelector('.current-year').textContent = new Date().getFullYear(); // Footer

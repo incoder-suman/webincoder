@@ -10,6 +10,9 @@
     --gray: #f9f9f9;
     --blue-gray: #f7f7fb;
   }
+  html {
+  scroll-behavior: smooth;
+}
   
   body {
     font-family: 'Poppins', sans-serif;
@@ -31,9 +34,11 @@
   /* When nav is active after scrolling */
   .nav.scrolled {
     background: white;
-    color: #131313;
+    color: black;
   }
-  
+  .nav.scrolled a{
+    color: black;
+  }
   
   .nav img {
     width: 100px;
@@ -439,6 +444,9 @@
   padding: 20px;
   border-radius: 16px;
   box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -494,7 +502,7 @@
 
 .portfolio-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   grid-auto-rows: auto;
   gap: 20px;
 }
@@ -587,24 +595,47 @@
   /* Our Portfolio End */
 
   /* Testimonial */
+  
   .content-inner-1 {
   padding: 60px 0;
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
 }
 
 .section-head .title {
   font-size: 32px;
   font-weight: bold;
   margin-bottom: 30px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #007bff; /* Webincoder brand primary */
 }
-
+.container-testi{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 500px;
+  margin: 0 auto;
+}
 .testimonial-2 {
   background: #f9f9f9;
-  padding: 25px;
+  /* padding: 25px; */
   border-radius: 10px;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
   text-align: center;
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.testimonial-2:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.1);
+}
+.testimonial-detail{
+  display: flex;
 }
 
 .testimonial-pic img {
@@ -613,31 +644,55 @@
   border-radius: 50%;
   object-fit: cover;
   margin-bottom: 15px;
+  border: 2px solid #007bff; /* Webincoder primary border */
 }
 
 .testimonial-name {
   font-size: 18px;
   font-weight: 600;
+  color: #222;
 }
 
 .testimonial-position {
   font-size: 14px;
   color: #888;
+  font-style: italic;
 }
 
 .testimonial-text p {
   font-size: 15px;
   margin-top: 15px;
   line-height: 1.6;
+  color: #555;
 }
 
 .owl-carousel .owl-dots .owl-dot span {
-  background: #ccc;
+  width: 12px;
+  height: 12px;
+  background: #bbb;
+  border-radius: 50%;
+  margin: 5px;
+  display: inline-block;
+  transition: background 0.3s;
 }
 
 .owl-carousel .owl-dots .owl-dot.active span {
-  background: #000;
+  background: #007bff; /* Webincoder theme */
 }
+@media (max-width: 576px) {
+  .testimonial-2 {
+    padding: 20px;
+  }
+
+  .testimonial-text p {
+    font-size: 14px;
+  }
+
+  .testimonial-name {
+    font-size: 16px;
+  }
+}
+
   /* Testimonial End */
 
    /* Clients Logo Section  */
