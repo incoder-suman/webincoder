@@ -706,12 +706,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100px;
+  height: 80px;
   transition: all 0.3s ease-in-out;
 }
 
 .clients-logo img {
-  max-height: 80px;
+  max-height: 60px;
   transition: 0.3s ease-in-out;
 }
 
