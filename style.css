@@ -17,11 +17,14 @@
   body {
     font-family: 'Poppins', sans-serif;
   }
+  html, body {
+  overflow-x: hidden;
+}
   .nav {
     position: fixed;
     width: 100%;
     margin: 0 auto;
-    background: transparent; /* transparent initially */
+    background: black; /* transparent initially */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -32,13 +35,7 @@
   }
   
   /* When nav is active after scrolling */
-  .nav.scrolled {
-    background: white;
-    color: black;
-  }
-  .nav.scrolled a{
-    color: black;
-  }
+  
   
   .nav img {
     width: 100px;
@@ -124,8 +121,10 @@
     background-position: center;
     background-repeat: no-repeat;
     min-height: 100vh; /* Full screen */
+    min-width: 100vw;
     display: flex;
     justify-content: space-between;
+    margin-top: 110px;
   }
   .hero-text{
     color: white;
@@ -873,12 +872,16 @@
     }
      .hero-text{
     color: white;
-    margin-top: 180px;
-    margin-left: 30px;
-    width: 480px;
+    margin-top: 65px;
+  
+    width: 380px;
     display: flex;
     flex-direction: column;
     text-align: center;
+  }
+  .hero-img{
+    width: 380px;
+    margin-top: 32px;
   }
   }
 
