@@ -1069,3 +1069,431 @@
 }
 
 /* Vision & Mission Section Styles End */
+
+
+/* Team Page */
+
+.team-section {
+  padding: 60px 20px;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.team-section img{
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.team-section .section-title {
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.team-section .section-subtitle {
+  font-size: 18px;
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto 30px;
+}
+
+.team-section .team-intro,
+.team-section .team-values,
+.team-section .team-cta {
+  max-width: 900px;
+  margin: 20px auto;
+}
+
+.team-section .team-values ul {
+  padding-left: 20px;
+  margin-top: 15px;
+}
+
+.team-section .team-values li {
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+.team-section .team-cta a {
+  color: #007bff;
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .team-section img{
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+  .team-section .section-title {
+    font-size: 26px;
+  }
+
+  .team-section .section-subtitle,
+  .team-section .team-values ul,
+  .team-section .team-intro,
+  .team-section .team-cta {
+    font-size: 16px;
+  }
+}
+/* Team Page End */
+
+/* Carrer Page */
+.job-listings {
+  margin-top: 110px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  padding: 3rem 1rem;
+  background-color: #f9f9f9;
+}
+
+.job-card {
+  background: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.job-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.job-card h3 {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.job-card p {
+  font-size: 0.95rem;
+  margin: 0.5rem 0;
+  color: #555;
+}
+
+.job-card a {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.6rem 1.2rem;
+  background-color: #0077ff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.job-card a:hover {
+  background-color: #005dc9;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .job-card {
+    padding: 1.2rem;
+  }
+
+  .job-card h3 {
+    font-size: 1.1rem;
+  }
+
+  .job-card p {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .job-listings {
+    padding: 2rem 1rem;
+    gap: 1.5rem;
+  }
+
+  .job-card a {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+/* Carrer Page End  */
+
+/* Galery Page  */
+.gallery-section {
+  padding: 4rem 1rem;
+  background-color: #f9f9ff;
+  text-align: center;
+}
+
+.gallery-title {
+  font-size: 2.2rem;
+  color: #222;
+  margin-bottom: 0.5rem;
+}
+
+.gallery-subtitle {
+  font-size: 1rem;
+  color: #555;
+  max-width: 600px;
+  margin: 0 auto 2.5rem;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.5rem;
+}
+
+.gallery-item {
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.06);
+  transition: transform 0.3s ease;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.gallery-item:hover img {
+  transform: scale(1.05);
+}
+
+/* Mobile Adjustments */
+@media (max-width: 480px) {
+  .gallery-title {
+    font-size: 1.6rem;
+  }
+
+  .gallery-subtitle {
+    font-size: 0.95rem;
+  }
+}
+
+/* Galery Page End   */
+
+/* Services Page */
+.services-section {
+  padding: 4rem 1rem;
+  background-color: #fefefe;
+  text-align: center;
+}
+
+.services-heading {
+  font-size: 2.5rem;
+  color: #222;
+  margin-bottom: 0.5rem;
+}
+
+.services-subheading {
+  max-width: 700px;
+  margin: 0 auto 2.5rem;
+  font-size: 1rem;
+  color: #555;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 2rem;
+}
+
+.service-card {
+  background: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+  text-align: left;
+}
+
+.service-card h3 {
+  color: #007bff;
+  margin-bottom: 0.8rem;
+  font-size: 1.3rem;
+}
+
+.service-card p {
+  font-size: 0.95rem;
+  color: #444;
+  line-height: 1.5;
+}
+
+.service-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 600px) {
+  .services-heading {
+    font-size: 2rem;
+  }
+
+  .service-card {
+    padding: 1.5rem;
+  }
+
+  .service-card h3 {
+    font-size: 1.1rem;
+  }
+
+  .service-card p {
+    font-size: 0.9rem;
+  }
+}
+
+/* Services Page End  */
+
+/* Digital Marketing  */
+.digital-marketing {
+  padding: 4rem 1rem;
+  background-color: #f7fafd;
+  text-align: center;
+}
+
+.dm-heading {
+  font-size: 2.5rem;
+  color: #2c3e50;
+  margin-bottom: 1rem;
+}
+
+.dm-intro {
+  max-width: 800px;
+  margin: 0 auto 2.5rem;
+  font-size: 1rem;
+  color: #555;
+}
+
+.dm-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  gap: 2rem;
+}
+
+.dm-card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.05);
+  text-align: left;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.dm-card h2 {
+  font-size: 1.25rem;
+  color: #007bff;
+  margin-bottom: 0.75rem;
+}
+
+.dm-card p {
+  font-size: 0.95rem;
+  color: #333;
+  line-height: 1.5;
+}
+
+.dm-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.08);
+}
+
+/* Responsive Tweaks */
+@media (max-width: 600px) {
+  .dm-heading {
+    font-size: 2rem;
+  }
+
+  .dm-card {
+    padding: 1.5rem;
+  }
+
+  .dm-card h2 {
+    font-size: 1.1rem;
+  }
+
+  .dm-card p {
+    font-size: 0.9rem;
+  }
+}
+
+/* Digital Marketing End   */
+
+/* Brand Management */
+.brand-management {
+  padding: 4rem 1rem;
+  background-color: #fcfcff;
+  text-align: center;
+}
+
+.bm-heading {
+  font-size: 2.5rem;
+  color: #2c3e50;
+  margin-bottom: 1rem;
+}
+
+.bm-intro {
+  max-width: 800px;
+  margin: 0 auto 2.5rem;
+  font-size: 1rem;
+  color: #555;
+}
+
+.bm-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  gap: 2rem;
+}
+
+.bm-card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.05);
+  text-align: left;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.bm-card h2 {
+  font-size: 1.25rem;
+  color: #1e90ff;
+  margin-bottom: 0.75rem;
+}
+
+.bm-card p {
+  font-size: 0.95rem;
+  color: #333;
+  line-height: 1.5;
+}
+
+.bm-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.08);
+}
+
+@media (max-width: 600px) {
+  .bm-heading {
+    font-size: 2rem;
+  }
+
+  .bm-card {
+    padding: 1.5rem;
+  }
+
+  .bm-card h2 {
+    font-size: 1.1rem;
+  }
+
+  .bm-card p {
+    font-size: 0.9rem;
+  }
+}
+
+/* Brand Management End  */
+
+
