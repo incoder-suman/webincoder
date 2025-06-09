@@ -1282,6 +1282,7 @@
   padding: 4rem 1rem;
   background-color: #fefefe;
   text-align: center;
+  margin-top: 100px;
 }
 
 .services-heading {
@@ -1356,6 +1357,7 @@
   padding: 4rem 1rem;
   background-color: #f7fafd;
   text-align: center;
+  margin-top: 105px;
 }
 
 .dm-heading {
@@ -1429,6 +1431,7 @@
   padding: 4rem 1rem;
   background-color: #fcfcff;
   text-align: center;
+  margin-top: 105px;
 }
 
 .bm-heading {
@@ -1496,4 +1499,485 @@
 
 /* Brand Management End  */
 
+/* Web Development */
+.web-dev {
+  padding: 4rem 1rem;
+  background-color: #f9faff;
+  text-align: center;
+  margin-top: 105px;
+}
 
+.wd-heading {
+  font-size: 2.5rem;
+  color: #1e3a8a;
+  margin-bottom: 1rem;
+}
+
+.wd-intro {
+  max-width: 800px;
+  margin: 0 auto 2.5rem;
+  font-size: 1rem;
+  color: #444;
+}
+
+.wd-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  gap: 2rem;
+}
+
+.wd-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
+  text-align: left;
+  transition: all 0.3s ease;
+}
+
+.wd-card h2 {
+  font-size: 1.25rem;
+  color: #2563eb;
+  margin-bottom: 0.75rem;
+}
+
+.wd-card p {
+  font-size: 0.95rem;
+  color: #333;
+  line-height: 1.6;
+}
+
+.wd-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+}
+
+@media (max-width: 600px) {
+  .wd-heading {
+    font-size: 2rem;
+  }
+
+  .wd-card {
+    padding: 1.5rem;
+  }
+
+  .wd-card h2 {
+    font-size: 1.1rem;
+  }
+
+  .wd-card p {
+    font-size: 0.9rem;
+  }
+}
+
+/* Web Development End  */
+
+/* Mobile App Development */
+.mobile-dev {
+  padding: 4rem 1rem;
+  background-color: #f5f9ff;
+  text-align: center;
+  margin-top: 105px;
+}
+
+.mob-heading {
+  font-size: 2.5rem;
+  color: #1e3a8a;
+  margin-bottom: 1rem;
+}
+
+.mob-intro {
+  max-width: 800px;
+  margin: 0 auto 2.5rem;
+  font-size: 1rem;
+  color: #444;
+}
+
+.mob-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  gap: 2rem;
+}
+
+.mob-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
+  text-align: left;
+  transition: 0.3s ease;
+}
+
+.mob-card h2 {
+  font-size: 1.25rem;
+  color: #2563eb;
+  margin-bottom: 0.75rem;
+}
+
+.mob-card p {
+  font-size: 0.95rem;
+  color: #333;
+  line-height: 1.6;
+}
+
+.mob-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+}
+
+@media (max-width: 600px) {
+  .mob-heading {
+    font-size: 2rem;
+  }
+
+  .mob-card {
+    padding: 1.5rem;
+  }
+
+  .mob-card h2 {
+    font-size: 1.1rem;
+  }
+
+  .mob-card p {
+    font-size: 0.9rem;
+  }
+}
+
+/* Mobile App Development End  */
+
+/* CRM Software Development */
+.crm-dev {
+  padding: 4rem 1rem;
+  background-color: #fefefe;
+  text-align: center;
+  margin-top: 105px;
+}
+
+.crm-heading {
+  font-size: 2.5rem;
+  color: #0f172a;
+  margin-bottom: 1rem;
+}
+
+.crm-intro {
+  max-width: 850px;
+  margin: 0 auto 2.5rem;
+  font-size: 1rem;
+  color: #555;
+}
+
+.crm-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  gap: 2rem;
+}
+
+.crm-card {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 2rem;
+  text-align: left;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.04);
+  transition: transform 0.3s ease;
+}
+
+.crm-card h2 {
+  font-size: 1.2rem;
+  color: #3b82f6;
+  margin-bottom: 0.75rem;
+}
+
+.crm-card p {
+  font-size: 0.95rem;
+  color: #333;
+  line-height: 1.6;
+}
+
+.crm-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.07);
+}
+
+@media (max-width: 600px) {
+  .crm-heading {
+    font-size: 2rem;
+  }
+
+  .crm-card {
+    padding: 1.5rem;
+  }
+
+  .crm-card h2 {
+    font-size: 1.1rem;
+  }
+
+  .crm-card p {
+    font-size: 0.9rem;
+  }
+}
+
+/* CRM Software Development End  */
+
+/* Gaming App Developement */
+.gaming-dev {
+  padding: 4rem 1rem;
+  background-color: #f8fafc;
+  text-align: center;
+  margin-top: 110px;
+}
+
+.gaming-heading {
+  font-size: 2.5rem;
+  color: #0f172a;
+  margin-bottom: 1rem;
+}
+
+.gaming-intro {
+  max-width: 850px;
+  margin: 0 auto 2.5rem;
+  font-size: 1rem;
+  color: #555;
+}
+
+.gaming-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  gap: 2rem;
+}
+
+.gaming-card {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 2rem;
+  text-align: left;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.04);
+  transition: transform 0.3s ease;
+}
+
+.gaming-card h2 {
+  font-size: 1.2rem;
+  color: #8b5cf6;
+  margin-bottom: 0.75rem;
+}
+
+.gaming-card p {
+  font-size: 0.95rem;
+  color: #333;
+  line-height: 1.6;
+}
+
+.gaming-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.07);
+}
+
+@media (max-width: 600px) {
+  .gaming-heading {
+    font-size: 2rem;
+  }
+
+  .gaming-card {
+    padding: 1.5rem;
+  }
+
+  .gaming-card h2 {
+    font-size: 1.1rem;
+  }
+
+  .gaming-card p {
+    font-size: 0.9rem;
+  }
+}
+
+/* Gaming App Developement End*/
+
+/* Graphics Designing  */
+.graphic-design {
+  padding: 4rem 1rem;
+  background-color: #ffffff;
+  text-align: center;
+  margin-top: 110px;
+}
+
+.graphic-heading {
+  font-size: 2.5rem;
+  color: #1e293b;
+  margin-bottom: 1rem;
+}
+
+.graphic-intro {
+  max-width: 850px;
+  margin: 0 auto 2.5rem;
+  font-size: 1rem;
+  color: #555;
+}
+
+.graphic-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  gap: 2rem;
+}
+
+.graphic-card {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 2rem;
+  text-align: left;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.04);
+  transition: transform 0.3s ease;
+}
+
+.graphic-card h2 {
+  font-size: 1.2rem;
+  color: #ec4899;
+  margin-bottom: 0.75rem;
+}
+
+.graphic-card p {
+  font-size: 0.95rem;
+  color: #333;
+  line-height: 1.6;
+}
+
+.graphic-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.07);
+}
+
+@media (max-width: 600px) {
+  .graphic-heading {
+    font-size: 2rem;
+  }
+
+  .graphic-card {
+    padding: 1.5rem;
+  }
+
+  .graphic-card h2 {
+    font-size: 1.1rem;
+  }
+
+  .graphic-card p {
+    font-size: 0.9rem;
+  }
+}
+
+/* Graphics Designing End  */
+
+
+/* Contact Us */
+.contact-section {
+  width: 100%;
+  max-width: 40rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 3rem 1rem;
+}
+
+.contact-intro > * + * {
+  margin-top: 1rem;
+}
+
+.contact-title {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.contact-description {
+  color: rgb(107 114 128);
+  text-align: center;
+}
+
+.form-group-container {
+  display: grid;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-label {
+  margin-bottom: 0.5rem;
+  font-size: 0.95rem;
+}
+
+.form-input,
+.form-textarea {
+  padding: 0.75rem 1rem;
+  border: 1px solid #e5e7eb;
+  width: 100%;
+  border-radius: 0.375rem;
+  font-size: 0.95rem;
+  line-height: 1.5rem;
+}
+
+.form-input::placeholder,
+.form-textarea::placeholder {
+  color: #6b7280;
+}
+
+.form-input:focus-visible,
+.form-textarea:focus-visible {
+  outline: 2px solid #2563eb;
+  outline-offset: 2px;
+}
+
+.form-textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.form-submit {
+  width: 100%;
+  margin-top: 1.2rem;
+  background-color: #3124ca;
+  color: #fff;
+  padding: 13px 5px;
+  border-radius: 0.375rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form-submit:hover {
+  background-color: #1e1aad;
+}
+
+/* ---------- Responsive Enhancements ---------- */
+
+@media (max-width: 480px) {
+  .contact-title {
+    font-size: 1.5rem;
+  }
+
+  .form-input,
+  .form-textarea {
+    font-size: 0.875rem;
+    padding: 0.65rem 0.9rem;
+  }
+
+  .form-submit {
+    font-size: 0.95rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .form-group-container {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .form-group:nth-child(3),
+  .form-group:nth-child(4) {
+    grid-column: span 2;
+  }
+}
+
+/* Contact Us */
